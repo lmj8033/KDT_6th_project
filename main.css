@@ -1,5 +1,6 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
+/* COMMON */
 body {
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     font-size: 15px;
@@ -10,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+/* HEADER */
 header:hover {
     background-color: aliceblue;
 }
@@ -23,6 +25,7 @@ header .inner {
     margin: 0 auto;
 }
 
+/* LOGO */
 header .inner .header_logo .logo {
     position: absolute;
     width: 105px;
@@ -33,27 +36,13 @@ header .inner .header_logo .logo {
     left: -30px;
 }
 
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 300,
-    'GRAD' 48,
-    'opsz' 20;
-    font-size: 13px;
-    transition: 0.6s;
-    bottom: 0;
-    margin: auto;
-    left: 60px;
-
-}
-
+/* MENU */
 header .inner .header_menu {  
     display: flex;
     position: absolute;
     margin: auto;
     top: 0;
     bottom: 0;
-    left: 100px;
 }
 
 header .inner .header_menu li {
@@ -72,10 +61,24 @@ header .inner .header_menu li:hover {
     border-radius: 4px;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 48,
+    'opsz' 20;
+    font-size: 13px;
+    transition: 0.6s;
+    bottom: 0;
+    margin: auto;
+    left: 60px;
+}
+
 header .inner .header_menu li:hover .material-symbols-outlined{
     transform: rotate(180deg);   
 }
 
+/* BUTTON */
 header .inner .header__btn {
     display: flex;
     position: absolute;
